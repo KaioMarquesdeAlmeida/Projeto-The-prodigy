@@ -5,7 +5,7 @@ body{
 
 header{
     color: white;
-
+    text-align: center;
 }
 section{
     background: white;
@@ -17,4 +17,5 @@ section{
 
 footer{
     color: white;
+    text-align: center;
 }
