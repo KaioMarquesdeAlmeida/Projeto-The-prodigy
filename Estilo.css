@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-color: aqua;
+=======
+    background: rgba(0, 128, 0, 0.938);
+>>>>>>> a7a3d8d8f2aeb8d68f85dea7b4b64ea35a006ae5
     font: normal 20pt Arial;
 }
 
@@ -13,9 +17,11 @@ section{
     padding: 20px;
     width: 650px;
     margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
 footer{
     color: white;
     text-align: center;
+    font-style: italic;
 }
