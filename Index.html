@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Prodigy</title>
     <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+
+
 </head>
 
 <body>
@@ -15,7 +18,18 @@
     </header>    
     <section>
         <div>
-            Teste   
+            <form class="pure-form">
+                <fieldset class="pure-group">
+                    
+                    <input type="email" class="pure-input-1-2" placeholder="Email" />
+                    <input type="text" class="pure-input-1-2" placeholder="Senha" />
+                </fieldset>
+                <p>
+                    <input type="checkbox" id="stacked-remember" /> Lembre de min</label>
+                </p>
+                
+                <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Sign in</button>
+            </form>
         </div>
     </section>
     
