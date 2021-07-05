@@ -2,6 +2,12 @@ body{
     background-color: rgba(35, 175, 0, 0.986);
     font: normal 20pt Arial;
 }
+header h1{
+background-color: rgb(192, 255, 129);
+width:400px;
+margin-left: auto;
+margin-right: auto;
+}
 
 header{
     color: white;
