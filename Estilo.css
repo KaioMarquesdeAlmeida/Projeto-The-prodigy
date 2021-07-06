@@ -36,6 +36,24 @@ padding-top: 10px;
 border-color: rgb(21, 255, 0);
 
 }
+.button1{background-color: rgb(6, 173, 15);
+font-size: 14px;
+font-weight: 700;
+border: none;
+padding: 5px;
+cursor: pointer;
+color: white;
+box-shadow: 0 5px 0 rgb(3, 128, 9);
+} /*Botão verde*/
+.button1:hover {background-color: rgb(3, 128, 9);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 5px 0 rgb(3, 128, 9);
+    } /*Botão verde pressionado*/
 
 .botaoEntrar {
     background-color: green;
