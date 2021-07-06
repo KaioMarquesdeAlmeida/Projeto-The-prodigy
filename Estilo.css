@@ -1,24 +1,27 @@
 body {
-    background-color: rgba(35, 175, 0, 0.986);
+    background-color: rgb(35, 175, 0);
     font: normal 20pt Arial;
     
 }
-
-header h1 {
-background-color: rgb(96, 192, 0);
-width:400px;
-margin-left: auto;
-margin-right: auto;
+.logo{
+   margin-right: 1200px;
+   width: 10%;
+   
 }
+.menutop{
+   height: 100px;
+  background:cover;
+    background-color:rgb(24, 121, 0);
+   margin-top: -91px;
+}
+
 
 header {
     color: white;
     text-align: center;
+   padding-bottom: 100px;
 }
 
-.imgCabecalho {
-    width: 325px;
-}
 
 section {
     text-align: center;
