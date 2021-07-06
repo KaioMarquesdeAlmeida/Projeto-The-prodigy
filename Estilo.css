@@ -1,37 +1,53 @@
-body{
+body {
     background-color: rgba(35, 175, 0, 0.986);
     font: normal 20pt Arial;
     
 }
-header h1{
+
+header h1 {
 background-color: rgb(96, 192, 0);
 width:400px;
 margin-left: auto;
 margin-right: auto;
-
 }
 
-header{
+header {
     color: white;
     text-align: center;
 }
-section{
+
+.imgCabecalho {
+    width: 325px;
+}
+
+section {
+    text-align: center;
     background: white;
-    border-radius:  20px;
+    border-radius: 10px;
     padding: 20px;
-    width: 400px;
-    margin:auto;
+    width: 300px;
+    margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
+
 div{
 font-size: medium;
-align-items: center;
-
 }
 
+.botaoEntrar {
+    background-color: green;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+.botaoEntrar:hover {
+    background-color: rgb(185, 185, 40);
+}
 
-footer{
+footer {
     color: white;
     text-align: center;
     font-style: italic;
