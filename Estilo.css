@@ -53,8 +53,20 @@ box-shadow: 0 5px 0 rgb(3, 128, 9);
     cursor: pointer;
     color: white;
     box-shadow: 0 5px 0 rgb(3, 128, 9);
-    } /*Botão verde pressionado*/
+    } /*Botão verde com o mouse em cima*/
 
+    .button1:active {background-color: rgb(3, 128, 9);
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        color: white;
+        position: relative;
+        top: 5px;
+        box-shadow:none;
+        } /*Botão verde com o mouse em cima*/
+    
 .botaoEntrar {
     background-color: green;
     color: white;
