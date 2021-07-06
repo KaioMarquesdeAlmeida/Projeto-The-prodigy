@@ -1,15 +1,17 @@
-let usuarios = [{"login":"kaio@gmail.com",  "senha":"kaiolindo123", "nick": "QueijoDeFumado"}, 
-                {"login":"master@gmail.com","senha":"master123",    "nick": "Nobre Alien"}, 
-                {"login":"rafa@gmail.com",  "senha":"rafa123",      "nick": "Ra98"}]
+let usuarios = [{"login":"kaio@gmail.com",  "senha":"kaio123", "username": "queijodefumado"}, 
+                {"login":"master@gmail.com","senha":"master123",    "username": "nobre alien"}, 
+                {"login":"rafa@gmail.com",  "senha":"rafa123",      "username": "ra98"}]
 
 
 function entrar(){
-   
-    let usuario = document.getElementsByName('username')[0].value.toLowerCase();
-    let senha = document.getElementsByName('password')[0].value;
+   //alert("c")
+    let usuario= document.getElementById("username").value.toLowerCase();
+    let senha  = document.getElementById('password').value;
+    //let nick   = document.getElementById("Username")[0]//.value.toLowerCase();
     for (var u in usuarios) {
         var us = usuarios[u];
-        if ((us.login === usuario || nick === nick) && us.senha === senha) {
+        //alert("verificado")
+        if ((us.login === usuario || us.username === usuario) && us.senha === senha) {//
             window.location = "index.html";
             return alert("Seja bem vindo!");  
         }
@@ -19,7 +21,7 @@ function entrar(){
 }
 /*
 function cadastro(){
-    let nick  =document.getElementsByName("nick")[0].value.toLowerCase();
+    let nick  =document.getElementsByName("username")[0].value.toLowerCase();
     let email1=document.getElementsByName("email1")[0].value.toLowerCase();
     let email2=document.getElementsByName("email2")[0].value.toLowerCase();
     let senha1=document.getElementsByName("senha1")[0].value.toLowerCase();

@@ -19,62 +19,62 @@
     </header>    
     <section >
                 
-      <form action="" class="login"><!--Formulário -->
+      <form action=""  class="login"><!--Formulário -->
           <div> Username <br>
            <label for="username">
-              <input type="text" name="Username" ></label>
+              <input type="text" name="Username" id="username"></label>
           </div>
           
           <div>Senha <br>
               <label for="Senha">
-             <input type="password" name="password"></label>
+             <input type="password" name="password" id="password"></label>
           </div>
           <div>
               <label for="Lembrar-me">
-              <input type="checkbox" name="Lembrar-me" id=""> Lembrar-me</label>
+              <input type="checkbox" name="Lembrar-me" id="Lembrar-me"> Lembrar-me</label>
               <br>
-              <button id='btnEntrar' onclick="entrar" class="button button1" >Entrar</button>
+              <button id='btnEntrar' onclick="entrar()" class="btn1" >Entrar</button>
           </div>
           
  
 
       </form>   
-      
-      <form action="" class="cadastro"><!--Formulário -->
+      <!--------------------CADASTRO---------------------->
+      <form action="cadastro"onclick="cadastro()" class="cadastro"><!--Formulário -->
         <div>
-            Username
-             <br><label for="Username">
+            Usuario
+             <br><label for="username">
             <input type="text" name="username" >
         </label>
         </div>
         <div><label for="Email">
-        Email <br><input type="email" name="Cofirmar email" id="">
+        Email <br><input type="email" name="email1" id="email1">
         </label></div>
         <div>
             <label for="Email">
-                Confirmar email <br>
-                <input type="email" name="Email" id="">
+                Confirmar Email <br>
+                <input type="email" name="email2" id="email2">
             </label>
         </div>
         <div>
             <label for="Senha">
-            Senha <br><input type="password" name="password"></label>
+            Senha <br><input type="password" id="senha1" name="password1"></label>
         </div>
         <div>
-            <label for="confirmar senha">
-            Confirme a senha <br><input type="password" name="password"></label>
+            <label for="Confirmar senha">
+            Confirme a senha <br><input type="password" id="senha2" name="password2" ></label>
         </div>
         <div>
         
             <br>
-            <button id="" class="button button1" >Cadastrar</button>
+            <button id="btnCadastro" class="btn1" >Cadastrar</button>
         </div>
         
     </form>  
         
     </section>
     <footer> <!--rodapé do site -->
-        <p>&copy;Contato &para; The Prodigy &gamma; Help &tosa;</p>
+        <p>&copy;Contato  The Prodigy Help </p>
     </footer>
     <script src="script.js"></script>
 </body>
