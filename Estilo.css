@@ -17,15 +17,16 @@ header{
 }
 section{
     background: white;
-    border-radius:  10px;
+    border-radius:  20px;
     padding: 20px;
-    width: 200px;
+    width: 400px;
     margin:auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 div{
 font-size: medium;
 align-items: center;
+
 }
 
 
