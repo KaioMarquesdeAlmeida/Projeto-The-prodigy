@@ -48,7 +48,7 @@ padding-top: 10px;
 border-color: rgb(21, 255, 0);
 
 }
-.button1{background-color: rgb(6, 173, 15);
+.btn1{background-color: rgb(6, 173, 15);
 font-size: 14px;
 font-weight: 700;
 border: none;
@@ -57,7 +57,7 @@ cursor: pointer;
 color: white;
 box-shadow: 0 5px 0 rgb(3, 128, 9);
 } /*Botão verde*/
-.button1:hover {background-color: rgb(3, 128, 9);
+.btn1:hover {background-color: rgb(3, 128, 9);
     font-size: 14px;
     font-weight: 700;
     border: none;
@@ -67,7 +67,7 @@ box-shadow: 0 5px 0 rgb(3, 128, 9);
     box-shadow: 0 5px 0 rgb(3, 128, 9);
     } /*Botão verde com o mouse em cima*/
 
-    .button1:active {background-color: rgb(3, 128, 9);
+    .btn1:active {background-color: rgb(3, 128, 9);
         font-size: 14px;
         font-weight: 700;
         border: none;
