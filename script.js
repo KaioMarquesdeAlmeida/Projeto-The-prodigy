@@ -1,17 +1,13 @@
 let usuarios = [{"login":"kaio@gmail.com",  "senha":"kaio123", "username": "queijodefumado"}, 
                 {"login":"master@gmail.com","senha":"master123",    "username": "nobre alien"}, 
                 {"login":"rafa@gmail.com",  "senha":"rafa123",      "username": "ra98"}]
-
-
-function entrar(){
-   //alert("c")
+function entrar(){  
     let usuario= document.getElementById("username").value.toLowerCase();
     let senha  = document.getElementById('password').value;
-    //let nick   = document.getElementById("Username")[0]//.value.toLowerCase();
     for (var u in usuarios) {
         var us = usuarios[u];
-        //alert("verificado")
-        if ((us.login === usuario || us.username === usuario) && us.senha === senha) {//
+        
+        if ((us.login === usuario || us.username === usuario) && us.senha === senha) {//efetuando login
             window.location = "index.html";
             return alert(`Seja bem vindo ${us.username}!`);  
         }
@@ -21,29 +17,26 @@ function entrar(){
 }
 // Cadastro
 function cadastro(){
-    //return alert("Ação de cadastro")
-    /*
-    let nick  =document.getElementsByName("username2")[0].value.toLowerCase();
-    let email1=document.getElementsByName("email1")[0].value.toLowerCase();
-    let email2=document.getElementsByName("email2")[0].value.toLowerCase();
-    let senha1=document.getElementsByName("senha1")[0].value.toLowerCase();
-    let senha2=document.getElementsByName("senha2")[0].value.toLowerCase();
-    if (email1 === email2 && senha1=== senha2){
-        alert("email e senha são iguais!")
-        for(var n in usuarios){
-            var user = usuarios[u];
-            if(user.username === nick){
-                alert(`Já existe um usuario com esse nick: ${nick} tente outro.`)
-
-        }   else{
-                email = email1
-                senha = senha1
-                alert(`Deu certo Sr° ${nick}`)
-                //usuarios = usuarios + {"login": email,"senha": senha,"nick":nick}}
+    var ni =document.getElementById("nick"  ).value.toLowerCase()
+    var e1 =document.getElementById("email1").value.toLowerCase()
+    var e2 =document.getElementById("email2").value.toLowerCase()
+    var s1 =document.getElementById("senha1").value.toLowerCase()
+    var s2 =document.getElementById("senha2").value.toLowerCase()
+     //return alert(`${ni}, ${e1}, ${e2},${s1}, ${s2} `)
+    if ((e1 == e2) && (s1== s2)){     //verifica se o email e senha são realmente iguais
+        email = e1
+        senha = s1
+        for (var c in usuarios){
+            var uc = usuarios[c];
+            if( uc.username == ni ){
+                return alert(`O nick "${ni}" já foi cadastrado tente outro nick`)
+            }
         }
+        nick = ni
+        usuarios +={"login":email,  "senha":senha,"username":ni }
+        return alert(`${{"login":email,"senha":senha,"username":ni}, {"login":email.value,"senha":senha.value,"username":ni.value }}`)        
+        //return false;
         
-    }
-
-
-}*/
+    }else {
+        return alert(`Os dados apresentados estão diferentes`)}
 }
