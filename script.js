@@ -34,8 +34,7 @@ function cadastro(){
         }
         nick = ni
         usuarios +={"login":email,  "senha":senha,"username":ni }
-        return alert(`${{"login":email,"senha":senha,"username":ni}, {"login":email.value,"senha":senha.value,"username":ni.value }}`)        
-        //return false;
+        return alert(`cadastro concluido`)        
         
     }else {
         return alert(`Os dados apresentados estão diferentes`)}
