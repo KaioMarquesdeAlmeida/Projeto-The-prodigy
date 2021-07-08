@@ -13,15 +13,17 @@ function entrar(){
         //alert("verificado")
         if ((us.login === usuario || us.username === usuario) && us.senha === senha) {//
             window.location = "index.html";
-            return alert("Seja bem vindo!");  
+            return alert(`Seja bem vindo ${us.username}!`);  
         }
     }
     alert("Dados incorretos, tente novamente.");
     return false;
 }
-
+// Cadastro
 function cadastro(){
-    let nick  =document.getElementsByName("username")[0].value.toLowerCase();
+    //return alert("Ação de cadastro")
+    /*
+    let nick  =document.getElementsByName("username2")[0].value.toLowerCase();
     let email1=document.getElementsByName("email1")[0].value.toLowerCase();
     let email2=document.getElementsByName("email2")[0].value.toLowerCase();
     let senha1=document.getElementsByName("senha1")[0].value.toLowerCase();
@@ -43,5 +45,5 @@ function cadastro(){
     }
 
 
-}
+}*/
 }
