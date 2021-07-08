@@ -4,9 +4,14 @@ body {
     
 }
 .logo{
-   margin-right: 1200px;
-   width: 10%;
    
+   width: 10%;
+   position: absolute;
+   top:5%;
+   left:5%;
+   transform: translate(-50%, -50%);
+   max-width: 700px;
+   min-width: 10%;
 }
 .menutop{
    height: 100px;
