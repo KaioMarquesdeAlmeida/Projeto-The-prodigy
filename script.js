@@ -19,7 +19,7 @@ function entrar(){
     alert("Dados incorretos, tente novamente.");
     return false;
 }
-/*
+
 function cadastro(){
     let nick  =document.getElementsByName("username")[0].value.toLowerCase();
     let email1=document.getElementsByName("email1")[0].value.toLowerCase();
@@ -28,11 +28,20 @@ function cadastro(){
     let senha2=document.getElementsByName("senha2")[0].value.toLowerCase();
     if (email1 === email2 && senha1=== senha2){
         alert("email e senha são iguais!")
-        if(nick ===)
-        email = email1
-        senha = senha1
-        usuarios = usuarios + {"login": email,"senha": senha,"nick":nick}}
+        for(var n in usuarios){
+            var user = usuarios[u];
+            if(user.username === nick){
+                alert(`Já existe um usuario com esse nick: ${nick} tente outro.`)
+
+        }   else{
+                email = email1
+                senha = senha1
+                alert(`Deu certo Sr° ${nick}`)
+                //usuarios = usuarios + {"login": email,"senha": senha,"nick":nick}}
+        }
+        
     }
 
 
-}*/
+}
+}
