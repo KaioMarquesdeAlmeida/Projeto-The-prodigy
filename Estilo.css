@@ -3,16 +3,86 @@ body {
     font: normal 20pt Arial;
     
 }
-.logo{
-   
-   width: 10%;
-   position: absolute;
-   top:5%;
-   left:5%;
-   transform: translate(-50%, -50%);
-   max-width: 700px;
-   min-width: 10%;
+a{
+text-decoration: none;
+    font-family: 'Otomanopee One', sans-serif;
+    color: black;
 }
+
+#navSuperior {
+    clear: both;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(206, 250, 206);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#imgPrincipal {
+    width: 125px;
+}
+
+.div01 {
+    float: left;
+}
+
+.div02 {
+    float: left;
+    margin-top: 27px;
+}
+
+.listaEsquerda {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Candara', sans-serif;
+}
+
+.listaEsquerda:hover {
+    background-color: rgb(3, 165, 3);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: white;
+}
+
+.div03 {
+    float: right;
+    margin-top: 27px;
+  
+}
+
+.listaDireita {
+    padding-right: 15px;
+    padding-left: 15px;
+   
+    border-collapse: separate;
+}
+
+.listaDireita:hover {
+    background-color: rgb(3, 165, 3);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: white;
+
+}
+
+.iconeSeta {
+    width: 8px;
+    position: relative;
+    bottom: 2px;
+    left: 2px
+}
+
+.iconesListaDireita {
+    width: 18px;
+    position: relative;
+    top: 3px;
+    right: 5px
+}
+
+
 .menutop{
    height: 100px;
   background:cover;
@@ -22,7 +92,7 @@ body {
 
 
 header {
-    color: white;
+    
     text-align: center;
    padding-bottom: 100px;
 }
