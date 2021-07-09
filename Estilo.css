@@ -19,6 +19,9 @@ text-decoration: none;
     top: 0px;
     right: 0px;
     left: 0px;
+    display: inline-block;
+    text-decoration: none;
+
 }
 
 #imgPrincipal {
@@ -90,6 +93,17 @@ text-decoration: none;
    margin-top: -91px;
 }
 
+nav div ul {
+    display: none;
+
+}
+nav div:hover ul {
+
+display: block;
+}
+
+   
+
 
 header {
     
@@ -106,6 +120,7 @@ header {
     width: 300px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    display: block;
 }
 .cadastro {
     text-align: center;
