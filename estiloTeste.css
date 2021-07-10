@@ -1,12 +1,67 @@
-.header {
-    position: relative;
+#navSuperior {
+    clear: both;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(206, 250, 206);
 }
 
-.imgDoCabecalho {
-    width: 175px;
+#imgPrincipal {
+    width: 125px;
 }
-footer{
+
+.div01 {
+    float: left;
+}
+
+.div02 {
+    float: left;
+    margin-top: 27px;
+}
+
+.listaEsquerda {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Candara', sans-serif;
+}
+
+.listaEsquerda:hover {
+    background-color: rgb(3, 165, 3);
+    padding-top: 27px;
+    padding-bottom: 27px;
     color: white;
-    text-align: center;
-    font-style: italic;
+}
+
+.div03 {
+    float: right;
+    margin-top: 27px;
+}
+
+.listaDireita {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Candara', sans-serif;
+    border-collapse: separate;
+}
+
+.listaDireita:hover {
+    background-color: rgb(3, 165, 3);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: white;
+
+}
+
+.iconeSeta {
+    width: 8px;
+    position: relative;
+    bottom: 2px;
+    left: 2px
+}
+
+.iconesListaDireita {
+    width: 18px;
+    position: relative;
+    top: 3px;
+    right: 5px
 }
