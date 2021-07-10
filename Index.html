@@ -6,30 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Prodigy: Soccer</title>
     <link rel="stylesheet" href="Estilo.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"> 
 
 
 </head>
 
 <body>
-
-
-<header>
-    <ul>
-        <li><a href="#">Entrar</a></li>
-        <li><a href="#">Cadastrar-se</a></li>
-    </ul>   
-        <img src="Logo150px.png" alt="Logo" class="logo"><!--Trocar quando possivel-->
+    <nav id="navSuperior">
         
-    </header>    
-    <section >
-                
-      <form action=""  class="login"><!--Formulário -->
-          <div> Username <br>
-           <label for="username">
-              <input type="text" name="Username" id="username"></label>
-          </div>
+            
+                <div class="div01"><img id="imgPrincipal" src="https://i.imgur.com/lWalabD.png"></div>
+                <div class="div02">
+                        <span class="listaEsquerda"><a href="">Principal</a></span>
+                        <span class="listaEsquerda"><a href="">Comece a jogar!</a></span>
+                        <span class="listaEsquerda"><a href="">Sobre nós</a></span>
+                        <span class="listaEsquerda"><a href="">Contato</a></span>
+                </div>
+            
+                <div class="div03"><span class="listaDireita"><img class="iconesListaDireita" src="https://image.flaticon.com/icons/png/512/269/269045.png"><a href="">Idioma</a><img class="iconeSeta" src="https://image.flaticon.com/icons/png/512/37/37411.png"></span></div>
+                        
+                       
+                        
+                        
+                        <header class="cadastrardrop">
+                            
+                            <div class="div03"> <span class="listaDireita"><img class="iconesListaDireita" src="https://image.flaticon.com/icons/png/512/153/153643.png"><a href="">Cadastrar</a><img class="iconeSeta" src="https://image.flaticon.com/icons/png/512/37/37411.png"></span></div>
+                        <ul class="cadastrodrop"> 
+                        <form action=""  class="login"><!--Formulário 2-->
+                          <div> Nick <br>
+                           <label for="nick">
+                              <input type="text" name="nick" id="nick"></label>
+                          </div>
+                          <div> Email <br>
+                              <label for="Email1">
+                                 <input type="text" name="email1" id="email1"></label>
+                             </div>
+                             <div>Confirme Email <br>
+                              <label for="Email2">
+                                 <input type="text" name="email2" id="email2"></label>
+                             </div>
+                          <div>Senha <br>
+                              <label for="Senha1">
+                             <input type="password" name="password1" id="senha1"></label>
+                          </div>
+                          <div>Confirme a Senha <br>
+                              <label for="Senha2">
+                             <input type="password" name="password2" id="senha2"></label>
+                          </div>
+                          <div>
+                              <label for="Lembrar-me2">
+                              <input type="checkbox" name="Lembrar-me2" id="Lembrar-me2"> Lembrar-me</label>
+                              <br>
+                              <button id='btnCadastro' onclick="cadastro()" class="btn1" >Cadastrar</button>
+                          </div></form></ul></header>
+
+
+                        <header class="entrardrop">
+                            <div class="div03"><span class="listaDireita"><img class="iconesListaDireita" src="https://img-premium.flaticon.com/png/512/2050/premium/2050089.png?token=exp=1625797865~hmac=c4af664a8d06c1ecca7b94e70065d2c5"><a href="" class="entrar">Entrar <img class="iconeSeta" src="https://image.flaticon.com/icons/png/512/37/37411.png"></a></span></div>  
+                        
+                        
+                        <ul class="logindrop">
+                        <form action=""  class="login"><!--Formulário -->
+                        <div> Username <br>
+                         <label for="username">
+                            <input type="text" name="Username" id="username"></label>
+                        </div>
+                    
+                        <div>Senha <br>
+                            <label for="Senha">
+                           <input type="password" name="password" id="password"></label>
+                        </div>
+                        <div>
+                            <label for="Lembrar-me">
+                            <input type="checkbox" name="Lembrar-me" id="Lembrar-me"> Lembrar-me</label>
+                            <br>
+                            <button id='btnEntrar' onclick="entrar()" class="btn1" >Entrar</button></div>
+                            </ul>
+                    
+                           </header>
+    </nav>            
           
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           <div>Senha <br>
               <label for="Senha">
@@ -51,40 +110,16 @@
               <button id='btnEntrar' onclick="entrar()" class="button button1" >Entrar</button>
 >>>>>>> Stashed changes
           </div>
+=======
+>>>>>>> c0ebefc019086ec21c8828d5b075d8c718a7f127
 
-      </form>   
-      <form action=""  class="login"><!--Formulário 2-->
-        <div> Nick <br>
-         <label for="nick">
-            <input type="text" name="nick" id="nick"></label>
-        </div>
-        <div> Email <br>
-            <label for="Email1">
-               <input type="text" name="email1" id="email1"></label>
-           </div>
-           <div>Confirme Email <br>
-            <label for="Email2">
-               <input type="text" name="email2" id="email2"></label>
-           </div>
-        <div>Senha <br>
-            <label for="Senha1">
-           <input type="password" name="password1" id="senha1"></label>
-        </div>
-        <div>Confirme a Senha <br>
-            <label for="Senha2">
-           <input type="password" name="password2" id="senha2"></label>
-        </div>
-        <div>
-            <label for="Lembrar-me2">
-            <input type="checkbox" name="Lembrar-me2" id="Lembrar-me2"> Lembrar-me</label>
-            <br>
-            <button id='btnCadastro' onclick="cadastro()" class="btn1" >Cadastrar</button>
-        </div>
+<br>
+            <br><br>
+            <br>  
 
-    </form>   
+
+
     
-        
-    </section>
     <footer> <!--rodapé do site -->
         <p>&copy;Contato  The Prodigy Help </p>
     </footer>
