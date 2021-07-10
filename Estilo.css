@@ -192,7 +192,11 @@ footer {
 }
 
 .cadastrodrop{
+
+position: fixed;
 float: left;
+right: 20px;
+top: 50px;
 display: none;
 
 }
