@@ -14,22 +14,25 @@ text-decoration: none;
     overflow: hidden;
     font-size: 18px;
     font-weight: bolder;
-    background-color: rgb(206, 250, 206);
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
     display: inline-block;
     text-decoration: none;
-
+    
+    
 }
+
 
 #imgPrincipal {
     width: 125px;
+    
 }
 
 .div01 {
     float: left;
+    
 }
 
 .div02 {
@@ -50,11 +53,13 @@ text-decoration: none;
     color: white;
 }
 
-.div03 {
+.div03{
     float: right;
     margin-top: 27px;
   
 }
+
+
 
 .listaDireita {
     padding-right: 15px;
@@ -86,31 +91,28 @@ text-decoration: none;
 }
 
 
-.menutop{
-   height: 100px;
-  background:cover;
-    background-color:rgb(24, 121, 0);
-   margin-top: -91px;
-}
 
-nav div ul {
+
+ nav .entrardrop .logindrop {
     display: none;
-
+position: relative;
 }
-nav div:hover ul {
-
-display: block;
+nav .entrardrop:hover ul{
+    display: block;
 }
 
    
 
 
-header {
+.hd1 {
     
     text-align: center;
    padding-bottom: 100px;
 }
+.logindrop{
 
+float: right;
+}
 
 .login {
     text-align: center;
@@ -132,7 +134,7 @@ header {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
-div{
+form{
 font-size: medium;
 padding-top: 10px;
 border-color: rgb(21, 255, 0);
@@ -189,3 +191,11 @@ footer {
     
 }
 
+.cadastrodrop{
+float: left;
+display: none;
+
+}
+nav .cadastrardrop:hover ul{
+    display: block;
+}
