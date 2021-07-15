@@ -1,10 +1,7 @@
 body {
-    background-image: url(possivelbg/campo\ de\ futebol\ vertical\ borrado.jpg);
+  background-color: green;
     font: normal 20pt Arial;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+   
 }
 /*fonte dos principais links da barra de navegação*/
 .linksnav{
@@ -29,7 +26,7 @@ text-decoration: none;
     display: inline-block;
     text-decoration: none;
     background-color: rgba(30, 148, 36, 0.733);
-    
+    font-family: 'Candara', sans-serif;
 }
 
 
@@ -78,11 +75,11 @@ text-decoration: none;
 }
 
 .listaDireita:hover {
-    background-color: rgb(3, 165, 3);
-    padding-top: 27px;
-    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 33px;
+    padding-bottom: 30px;
     color: white;
-    border-radius: 5px;
+  
 
 }
 
@@ -103,15 +100,7 @@ text-decoration: none;
 
 
 
- nav .entrardrop .logindrop {
-    display: none;
-position: fixed;
-right: 10px;
-top: 50px;
-}
-nav .entrardrop:hover ul{
-    display: block;
-}
+ 
 
    
 
@@ -141,7 +130,7 @@ float: right;
     background: white;
     border-radius: 10px;
     padding-left: 20px;
-    width: 120px;
+    width: 110px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
     display: block;
@@ -165,26 +154,31 @@ border-color: rgb(21, 255, 0);
 
 }
 .btn1{background-color: rgb(6, 173, 15);
-font-size: 14px;
+font-size: 20px;
 font-weight: 700;
 border: none;
 padding: 5px;
 cursor: pointer;
 color: white;
 box-shadow: 0 5px 0 rgb(3, 128, 9);
+border-radius: 10px;
+height: 30px;
 } /*Botão verde*/
 .btn1:hover {background-color: rgb(3, 128, 9);
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     border: none;
     padding: 5px;
     cursor: pointer;
     color: white;
     box-shadow: 0 5px 0 rgb(3, 128, 9);
+    border-radius: 10px;
+    height: 30px;
+    
     } /*Botão verde com o mouse em cima*/
 
     .btn1:active {background-color: rgb(3, 128, 9);
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
         border: none;
         padding: 5px;
@@ -193,6 +187,7 @@ box-shadow: 0 5px 0 rgb(3, 128, 9);
         position: relative;
         top: 5px;
         box-shadow:none;
+        height: 30px;
         } /*Botão verde pressionado*/
     
 .botaoEntrar {
@@ -202,6 +197,7 @@ box-shadow: 0 5px 0 rgb(3, 128, 9);
     padding-right: 18px;
     padding-top: 5px;
     padding-bottom: 5px;
+    height: 40px;
 }
 
 .botaoEntrar:hover {
@@ -217,24 +213,33 @@ footer {
 
 .cadastrodrop{
 
-position: fixed;
-float: left;
-right: 10px;
-top: 50px;
+
 display: none;
 
 }
 nav .cadastrardrop:hover ul{
     display: block;
+    position: fixed;
+float: left;
+right: 25px;
+top: 55px;
 }
-
+nav .entrardrop .logindrop {
+    display: none;
+position: fixed;
+right: 160px;
+top: 55px;
+}
+nav .entrardrop:hover ul{
+    display: block;
+}
 .selecionaridioma ul{
     display: none;
     position: fixed;
 float: left;
-right: 10px;
+right: -12px;
 top: 50px;
-display: none;
+
 }
 .selecionaridioma:hover ul {
     display: block;
