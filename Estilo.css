@@ -1,11 +1,19 @@
 body {
-    background-color: rgb(35, 175, 0);
+    background-image: url(possivelbg/campo\ de\ futebol\ vertical\ borrado.jpg);
     font: normal 20pt Arial;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
 }
-a{
+/*fonte dos principais links da barra de navegação*/
+.linksnav{
 text-decoration: none;
     font-family: 'Otomanopee One', sans-serif;
+    color: black;
+}
+.linkdeidioma{
+    text-decoration: none;
     color: black;
 }
 
@@ -20,7 +28,7 @@ text-decoration: none;
     left: 0px;
     display: inline-block;
     text-decoration: none;
-    
+    background-color: rgba(30, 148, 36, 0.733);
     
 }
 
@@ -49,8 +57,9 @@ text-decoration: none;
 .listaEsquerda:hover {
     background-color: rgb(3, 165, 3);
     padding-top: 27px;
-    padding-bottom: 27px;
+    padding-bottom: 20px;
     color: white;
+    border-radius: 5px;
 }
 
 .div03{
@@ -71,8 +80,9 @@ text-decoration: none;
 .listaDireita:hover {
     background-color: rgb(3, 165, 3);
     padding-top: 27px;
-    padding-bottom: 27px;
+    padding-bottom: 20px;
     color: white;
+    border-radius: 5px;
 
 }
 
@@ -95,7 +105,9 @@ text-decoration: none;
 
  nav .entrardrop .logindrop {
     display: none;
-position: relative;
+position: fixed;
+right: 10px;
+top: 50px;
 }
 nav .entrardrop:hover ul{
     display: block;
@@ -123,6 +135,18 @@ float: right;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
     display: block;
+}
+.idiomas{
+    
+    background: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 120px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    display: block;
+    padding-bottom: 10px;
+
 }
 .cadastro {
     text-align: center;
@@ -201,5 +225,17 @@ display: none;
 
 }
 nav .cadastrardrop:hover ul{
+    display: block;
+}
+
+.selecionaridioma ul{
+    display: none;
+    position: fixed;
+float: left;
+right: 10px;
+top: 50px;
+display: none;
+}
+.selecionaridioma:hover ul {
     display: block;
 }
