@@ -3,150 +3,56 @@ body {
     font: normal 20pt Arial;
    
 }
-/*fonte dos principais links da barra de navegação*/
-.linksnav{
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+color: white;
 text-decoration: none;
-    font-family: 'Otomanopee One', sans-serif;
-    color: black;
-}
-.linkdeidioma{
-    text-decoration: none;
-    color: black;
-}
-
-#navSuperior {
-    clear: both;
-    overflow: hidden;
-    font-size: 18px;
-    font-weight: bolder;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: rgba(30, 148, 36, 0.733);
-    font-family: 'Candara', sans-serif;
-}
-
-
-#imgPrincipal {
-    width: 125px;
-    
-}
-
-.div01 {
-    float: left;
-    
-}
-
-.div02 {
-    float: left;
-    margin-top: 27px;
-}
-
-.listaEsquerda {
-    padding-right: 15px;
-    padding-left: 15px;
-    font-family: 'Candara', sans-serif;
-}
-
-.listaEsquerda:hover {
-    background-color: rgb(3, 165, 3);
-    padding-top: 27px;
-    padding-bottom: 20px;
-    color: white;
-    border-radius: 5px;
-}
-
-.div03{
-    float: right;
-    margin-top: 27px;
-  
-}
-
-
-
-.listaDireita {
-    padding-right: 15px;
-    padding-left: 15px;
-   
-    border-collapse: separate;
-}
-
-.listaDireita:hover {
-    background-color: rgb(255, 255, 255);
-    padding-top: 33px;
-    padding-bottom: 30px;
-    color: white;
-  
+transition: 0.3s;
+font-size: 2vh;
 
 }
-
-.iconeSeta {
-    width: 8px;
-    position: relative;
-    bottom: 2px;
-    left: 2px
+a:hover {
+    opacity: 0.7;
 }
-
-.iconesListaDireita {
-    width: 18px;
-    position: relative;
-    top: 3px;
-    right: 5px
-}
-
-
-
-
+nav{
  
+    background-color: darkgreen;
+    height: 5vh;
+    list-style: none;
+}
+.nav-list1 {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
 
+.nav-list1 li{
+    letter-spacing: 2px;
+    position: relative;
+    padding-left: 2vh;
+    padding-right: 2vh;
    
-
-
-.hd1 {
     
-    text-align: center;
-   padding-bottom: 100px;
 }
-.logindrop{
-
-float: right;
-}
-
-.login {
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    display: block;
-}
-.idiomas{
+.nav-list2 {
+    display: flex;
+    justify-content: flex-start;
     
-    background: white;
-    border-radius: 10px;
-    padding-left: 20px;
-    width: 110px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    display: block;
-    padding-bottom: 10px;
-
 }
-.cadastro {
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+.nav-list2 li {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    position: relative;
+    top: -31px;
+    
 }
-
 form{
 font-size: medium;
 padding-top: 10px;
@@ -211,36 +117,3 @@ footer {
     
 }
 
-.cadastrodrop{
-
-
-display: none;
-
-}
-nav .cadastrardrop:hover ul{
-    display: block;
-    position: fixed;
-float: left;
-right: 25px;
-top: 55px;
-}
-nav .entrardrop .logindrop {
-    display: none;
-position: fixed;
-right: 160px;
-top: 55px;
-}
-nav .entrardrop:hover ul{
-    display: block;
-}
-.selecionaridioma ul{
-    display: none;
-    position: fixed;
-float: left;
-right: -12px;
-top: 50px;
-
-}
-.selecionaridioma:hover ul {
-    display: block;
-}
