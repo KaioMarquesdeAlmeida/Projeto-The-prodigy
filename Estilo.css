@@ -53,6 +53,15 @@ nav{
     top: -31px;
     
 }
+
+.imglogo {
+    width: 18vh;
+    height: 10vh;
+    position:fixed;
+    right: 630px;
+    
+    
+}
 form{
 font-size: medium;
 padding-top: 10px;
