@@ -9,13 +9,9 @@ body {
     padding: 0px;
 }
 
-a {
-color: white;
-text-decoration: none;
-transition: 0.3s;
-font-size: 2vh;
 
-}
+
+
 a:hover {
     opacity: 0.7;
 }
@@ -32,7 +28,12 @@ nav{
     align-items: center;
     
 }
-
+.nav-list1 a {
+color: white;
+text-decoration: none;
+transition: 0.3s;
+font-size: 2vh;
+}
 .nav-list1 li{
     letter-spacing: 2px;
     position: relative;
@@ -46,6 +47,12 @@ nav{
     justify-content: flex-start;
     
 }
+.nav-list2 a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 2vh;
+}
 .nav-list2 li {
     padding-left: 2vh;
     padding-right: 2vh;
@@ -55,15 +62,34 @@ nav{
 }
 
 .imglogo {
-    width: 18vh;
-    height: 10vh;
-    position:fixed;
-    right: 630px;
-    
+    width: 28vh;
+    height: 20vh;
+    position:absolute;
+    right: 590px;
     
 }
+.nav-inf {
+    display: flex;
+   justify-content: center;
+   position: relative;
+    top: 22vh;
+    color: white;
+    font-size: 2vh;
+}
+.nav-inf a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 2vh;
+    
+}
+.nav-inf li{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
 form{
-font-size: medium;
+font-ize: medium;
 padding-top: 10px;
 border-color: rgb(21, 255, 0);
 
@@ -123,6 +149,7 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding-top: 90vh;
     
 }
 
