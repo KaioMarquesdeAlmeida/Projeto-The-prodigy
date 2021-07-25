@@ -60,13 +60,12 @@ font-size: 2vh;
     top: -31px;
     
 }
-
 .imglogo {
     width: 28vh;
     height: 20vh;
-    position:absolute;
-    right: 590px;
-    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nav-inf {
     display: flex;
@@ -92,7 +91,6 @@ form{
 font-ize: medium;
 padding-top: 10px;
 border-color: rgb(21, 255, 0);
-
 }
 .btn1{background-color: rgb(6, 173, 15);
 font-size: 20px;
@@ -152,4 +150,16 @@ footer {
     padding-top: 90vh;
     
 }
-
+.selectidioma { 
+    background-color: white;
+    position: absolute; 
+    right: 0vh; 
+    top: 5vh;
+    width: 100px;
+}
+.selectidioma div{
+    padding-left: 10px;
+}
+.selectidioma div a{
+   color: black; 
+}
