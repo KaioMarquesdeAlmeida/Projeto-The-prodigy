@@ -17,23 +17,16 @@
    <nav >
        
         <div class="nav-list1"><!--Nav direita-->
-             <li class="entrar"><a href="">Entrar</a>
-                <form action=""  class="login"><!--Formulário -->
-                    <div> <br> Usuário <br>
-                     <label for="username">
-                        <input type="text" name="Username" id="username"></label>
-                    </div> 
-                
-                    <div> <br> Senha <br>
-                        <label for="Senha">
-                       <input type="password" name="password" id="password"></label>
-                    </div>
-                    <div> <br>
-                        <label for="Lembrar-me">
-                        <input type="checkbox" name="Lembrar-me" id="Lembrar-me"> Lembrar-me</label>
-                        <br>
-                        <button id='btnEntrar' onclick="entrar()" class="btn1" >Entrar</button></div></form>
+            <li class="idioma"><a href="">Idioma</a>
+                <header class="selectidioma"><!--Selecionar idioma-->
+                        <form action="" class="idiomas">
+                            <div><img src="bandeiras_idiomas/bandeira do brasil20px.png" alt=""><a href="" class="linkdeidioma"> PT-BR</a></div><br>
+                            <div><img src="bandeiras_idiomas/bandeira da espanha20px.png" alt=""><a href="" class="linkdeidioma"> ESP</a></div><br>
+                            <div><img src="bandeiras_idiomas/bandeira do eua20px.jpg" alt=""><a href="" class="linkdeidioma"> ING</a></div><br>
+                        </form>
+                </header>
             </li>
+            
 
              <li class="cadastrar"><a href="">Cadastrar</a>
                
@@ -63,17 +56,26 @@
                           <button id='btnCadastro' onclick="cadastro()" class="btn1" >Cadastrar</button>
                       </div></form>
             </li>
-
-
-             <li class="idioma"><a href="">Idioma</a>
-                <header class="selectidioma"><!--Selecionar idioma-->
-                        <form action="" class="idiomas">
-                            <div><img src="bandeiras_idiomas/bandeira do brasil20px.png" alt=""><a href="" class="linkdeidioma"> PT-BR</a></div><br>
-                            <div><img src="bandeiras_idiomas/bandeira da espanha20px.png" alt=""><a href="" class="linkdeidioma"> ESP</a></div><br>
-                            <div><img src="bandeiras_idiomas/bandeira do eua20px.jpg" alt=""><a href="" class="linkdeidioma"> ING</a></div><br>
-                        </form>
-                </header>
+            <li class="entrar"><a href="">Entrar</a>
+                <form action=""  class="login"><!--Formulário -->
+                    <div> <br> Usuário <br>
+                     <label for="username">
+                        <input type="text" name="Username" id="username"></label>
+                    </div> 
+                
+                    <div> <br> Senha <br>
+                        <label for="Senha">
+                       <input type="password" name="password" id="password"></label>
+                    </div>
+                    <div> <br>
+                        <label for="Lembrar-me">
+                        <input type="checkbox" name="Lembrar-me" id="Lembrar-me"> Lembrar-me</label>
+                        <br>
+                        <button id='btnEntrar' onclick="entrar()" class="btn1" >Entrar</button></div></form>
             </li>
+
+
+             
         </div>
             
         <div class="nav-list2"><!--Nav esquerda-->

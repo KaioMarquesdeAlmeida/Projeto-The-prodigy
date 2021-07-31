@@ -33,7 +33,7 @@ nav{
 color: white;
 text-decoration: none;
 transition: 0.3s;
-font-size: 2.5vh;
+font-size: 2.2vh;
 }
 .nav-list1 li{
     letter-spacing: 2px;
@@ -52,7 +52,7 @@ font-size: 2.5vh;
     color: white;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
 }
 .nav-list2 li {
     padding-left: 2vh;
@@ -67,6 +67,7 @@ font-size: 2.5vh;
     display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 .nav-inf {
     display: flex;
@@ -173,7 +174,7 @@ footer {
 .cadastro {
     background-color: white;
     position: absolute; 
-    right: -8vh; 
+    right: -20px; 
     top: 5vh;
     width: 200px;
     font-size: 2vh;
@@ -191,7 +192,7 @@ footer {
 .login{
     background-color: white;
     position: absolute; 
-    right: -8vh; 
+    right: 0px; 
     top: 5vh;
     width: 200px;
     font-size: 2vh;
